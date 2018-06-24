@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://localhost:8080/webservice">
+<soapenv:Header/>
+<soapenv:Body>
+   <gs:getGuestRequest>
+       <gs:name>Joseph</gs:name>
+   </gs:getGuestRequest>
+</soapenv:Body>
+</soapenv:Envelope>
